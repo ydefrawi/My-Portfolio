@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display:flex;
+    padding: 10px;
+    font-family: Verdana, sans-serif;
+    height:auto;
+    background-color: rgb(7, 38, 68);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.headerbox {
+    background-color: teal;
+    padding: 10px;
+    width:500px;
+    display:block;
+}
+
+header .headerbox {
+    text-align: right;
+}
+
+nav {
+    display: block;
+    margin: auto;
+}
+
+ul {
+    flex-wrap:wrap;
+    float:right;
+}
+
+
+li {
+    display:inline-block;
+    margin:30px;
+}
+
+/* making the nav items white, getting rid of the underline, establishing font size and family */
+header a {
+    text-decoration: none;
+    font-family:arial;
+    color:white;
+    font-size:20px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/antlers.jpg");
+    background-size: cover;
+    background-position: center;
+}
