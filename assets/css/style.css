@@ -4,23 +4,33 @@
     margin: 0;
 }
 
+h1 {
+    font-size: 60px;
+    padding:10px;
+    margin-right:10px;
+}
+
+h2 {
+    font-size: 50px;
+    padding:10px;
+    Margin-left 
+}
+
 header {
     display:flex;
+    justify-content: space-between;
     padding: 10px;
     font-family: Verdana, sans-serif;
     height:auto;
     background-color: rgb(7, 38, 68);
 }
 
-h1 {
-    font-size: 40px;
-}
-
 .headerbox {
     background-color: teal;
     padding: 10px;
-    width:500px;
-    display:block;
+    width:600px;
+    height:auto;
+    display:inline-block;
 }
 
 header .headerbox {
@@ -28,8 +38,9 @@ header .headerbox {
 }
 
 nav {
-    display: block;
-    margin: auto;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 ul {
@@ -39,7 +50,8 @@ ul {
 
 
 li {
-    display:inline-block;
+    flex-wrap:wrap;
+    display:inline;
     margin:30px;
 }
 
@@ -59,3 +71,4 @@ header a {
     background-size: cover;
     background-position: center;
 }
+
