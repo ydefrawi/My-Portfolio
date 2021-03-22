@@ -80,6 +80,7 @@ div {
 
 .about-me-container {
     display:flex;
+    align-items: center;
     justify-content:flex-start;
     background-color: rgb(7, 38, 68);
 }
