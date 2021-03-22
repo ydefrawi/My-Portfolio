@@ -87,7 +87,7 @@ div {
 
 .about-heading {
     height:400px;
-    background-image: url(../images/linkedin.PNG);;
+    background-image: url(../images/linkedin.PNG);
     background-size:390px;
     background-repeat: space;
     align-self:auto;
@@ -157,7 +157,7 @@ p {
     align-items: flex-end;
     width:50%;
     height:150px;
-    background-image: url(/assets/images/ledwall.jpg);
+    background-image: url(../images/ledwall.jpg);
 }
 
 .calculator {
@@ -165,7 +165,7 @@ p {
     align-items: flex-end;
     width:50%;
     height:150px;
-    background-image:url(/assets/images/calculator.jpg)
+    background-image:url(../images/calculator.jpg)
 }
 
 .pastel {
@@ -173,7 +173,7 @@ p {
     align-items: flex-end;
     width:50%;
     height:150px;
-    background-image:url(/assets/images/pastel\ puzzle.jpg)
+    background-image:url(../images/pastel\ puzzle.jpg)
 }
 
 .runbuddy {
@@ -182,7 +182,7 @@ p {
     width:50%;
     height:150px;
     background-position:left;
-    background-image:url(/assets/images/runbuddy.jpg)
+    background-image:url(../images/runbuddy.jpg)
 }
 
 .app-box {
@@ -203,7 +203,7 @@ p {
     display:flex;
     align-items:center;
     height:250px;
-    background-image: url(/assets/images/HoustonBlue.jpg);
+    background-image: url(../images/HoustonBlue.jpg);
     background-position: center;
 }
 
