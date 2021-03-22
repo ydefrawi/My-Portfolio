@@ -80,66 +80,113 @@ div {
 
 .about-me-container {
     display:flex;
-    flex:1;
     justify-content:flex-start;
-    align-items:stretch;
+    background-color: rgb(7, 38, 68);
 }
 
 .about-heading {
-
-    max-block-size:255;
-    flex-basis:300px;
+    height:400px;
     background-image: url(../images/linkedin.PNG);;
     background-size:390px;
-    border-width: 10px;
-    border-style:solid;
-    border-color: black;
+    background-repeat: space;
     align-self:auto;
     padding:0px;
+    float:left;
 }
 
  .about-heading h2 {
-    flex:auto;
     height:300px;
     font-size: 80px;
+    padding:40px;
     font-weight: normal;
     color: rgb(255, 255, 255);
  }
-
-
-.black-bar {
-    background-color:black;
-}
 
 .about-me-text {
     background-color: rgb(7, 38, 68);
     color:white;
     text-align: left;
     padding:20px;
-    column-width: auto;
 }
 
 p {
   font-size: 25px;    
 }
 
-.recent-work-container {
-    display:flex;
-    padding:50px;
-    border:black;
-    border-style: solid;
-}
-
-h3 {
-    Font-size: 40px;
-}
-
 .surf-container{
     display:flex;
-    align-items: flex-end;
+    background-color: rgb(1, 7, 12);
+}
+
+.recent-work-box {
+    height:fit-content;
+    flex:1 1 400px;
+
+}
+
+.recent-work-box h3 {
+    Font-size: 40px;
+    color:white;
+    padding:10px;
+    vertical-align: middle;
+    text-align: middle;
+    margin: 50px;
+    border: rgb(7, 38, 68);
+    border-width: 10px;
+    border-style: solid;
+
+}
+
+
+
+.surf{
     height:300px;
-    width: 900px;
+    width: 100%;
     background-color: rgb(138, 158, 180);
+}
+
+.smaller-projects {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(1, 7, 12);
+}
+
+.led-wall {
+    display:flex;
+    align-items: flex-end;
+    width:50%;
+    height:150px;
+    background-image: url(/assets/images/ledwall.jpg);
+}
+
+.calculator {
+    display:flex;
+    align-items: flex-end;
+    width:50%;
+    height:150px;
+    background-image:url(/assets/images/calculator.jpg)
+}
+
+.pastel {
+    display:flex;
+    align-items: flex-end;
+    width:50%;
+    height:150px;
+    background-image:url(/assets/images/pastel\ puzzle.jpg)
+}
+
+.runbuddy {
+    display:flex;
+    align-items: flex-end;
+    width:50%;
+    height:150px;
+    background-position:left;
+    background-image:url(/assets/images/runbuddy.jpg)
+}
+
+.app-box {
+    display:flex;
+    align-items: flex-end;
     border-style: solid;
     border-color:rgb(140, 211, 204);
     border-width: 10px;
@@ -157,3 +204,4 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 100px; 
 }
+
