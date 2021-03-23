@@ -32,6 +32,7 @@ header {
 .headerbox {
     background-color: teal;
     padding: 10px;
+    margin-right: 30px;
     width:600px;
     height:auto;
     display:inline-block;
@@ -206,6 +207,7 @@ h3{
 #contact {
     display:flex;
     align-items:left;
+    justify-content: space-between;
     height:250px;
     background-image: url(../images/HoustonBlue.jpg);
     background-position: center;
@@ -223,7 +225,7 @@ h3{
 
 .contact-items {
     flex:0 0 15%;
-    display:inline-block;
+    display:inline;
     margin:10px;
     text-decoration: underline;
     text-decoration-thickness: 5px;
@@ -232,7 +234,12 @@ h3{
 }
 
 @media screen and (max-width:400px) {
-.hero{
+.header {
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+    .hero{
     height: 400px;
 }
  #surf-container{
@@ -314,16 +321,17 @@ ul {
     .runbuddy {
          width:100%;
         }
-    }
+    
     li {
         display:inline;
         margin:10px;
     }
     ul {
         margin:20px;
-    };
+        display:block;
+    }
 
-
+}
 
 @media screen and (max-width:1000px) {
     li {
