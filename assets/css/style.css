@@ -81,65 +81,70 @@ div {
     align-items: center;
     justify-content:flex-start;
     background-color: rgb(7, 38, 68);
+    flex:(0 0 50px);
 }
 
 .about-heading {
     height:400px;
-    background-image: url(../images/linkedin.PNG);
-    background-size:500px;
+    background-image: url("../images/linkedin.PNG");
+    background-size: 500px;
     background-repeat: space;
-    align-self:auto;
-    padding:0px;
-    float:left;
+    box-shadow:inset 000 100 turquoise;
+    
 }
 
  .about-heading h2 {
+    align-items:center;
     height:300px;
-    font-size: 80px;
-    padding:40px;
+    font-size: 70px;
+    margin:100px;
     font-weight: normal;
-    color: rgb(255, 255, 255);
+    color: rgb(255,255, 255);
+    justify-content: center;
  }
 
 .about-me-text {
+    font-size:20px;
     background-color: rgb(7, 38, 68);
     color:white;
     text-align: left;
-    padding:20px;
-}
-
+    margin:100px;
+    }   
 p {
   font-size: 25px;    
 }
 
 #surf-container{
     display:flex;
-    background-color: rgb(1, 7, 12);
-    align-items: center;
+    flex:wrap;
+    background-color:black;
+    align-items: center; 
 }
 
 .recent-work-box {
-    height:fit-content;
-    flex:1 1 400px;
-
+    height:300px;
+    flex:0 0 15%;
 }
 
-.recent-work-box h3 {
+.recent-work-box 
+{   
+    width:100%;
+    text-align: right;
     Font-size: 40px;
     color:white;
-    padding:10px;
-    vertical-align: middle;
-    text-align: middle;
-    margin: 50px;
-    border: rgb(7, 38, 68);
-    border-width: 10px;
-    border-style: solid;
-
+    padding: 50px;
+    margin: 0px;
 }
 
-
-
-.surf{
+h3{
+    vertical-align: middle;
+    padding:25px;
+    border-width: 15px;
+    Border-radius:10px;
+    border-style: solid;
+    border-color:teal;
+}
+.surf {
     height:300px;
     width: 100%;
     background-color: rgb(138, 158, 180);
@@ -200,17 +205,17 @@ p {
 
 #contact {
     display:flex;
-    align-items:center;
+    align-items:left;
     height:250px;
     background-image: url(../images/HoustonBlue.jpg);
     background-position: center;
 }
 
 .contact-me{
-   margin:50px;
+   margin:30px;
    text-align: right;
    word-wrap: normal;
-   width:300px;
+   width:200px;
    padding:40px;
    display:inline-block;
    color:white;
@@ -226,7 +231,67 @@ p {
     text-align: center;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:400px) {
+.hero{
+    height: 400px;
+}
+ #surf-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    #about-me-container{
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+.about-heading {
+    font-size: 12;
+    }
+ .about-me-text 
+     {   
+     width:100%;
+     Font-size: 12px;
+     padding:10px;
+     vertical-align:auto;
+     text-align: left;
+     margin: 10px;
+     }
+
+.led-wall {
+    align-items: flex-end;
+    width:100%;
+    }
+.calculator {
+     align-items: flex-end;
+     width:100%;
+     height:150px;
+    }
+.pastel {
+      width:100%;
+      background-image:url(../images/pastel\ puzzle.jpg)
+    }
+        
+.runbuddy {
+    width:100%;
+    }
+li {
+    display:block;
+     margin:10px;
+    }
+ul {
+        margin:20px;
+    }
+}
+
+#contact {
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+
+.contact-me h2 {
+    text-align:left;
+    margin: 20px;
+}
+@media screen and (max-width:705px) {
 
     #about-me-container{
         justify-content: center;
@@ -234,22 +299,46 @@ p {
     #about-me-container {
         flex-wrap: wrap;
     }
-}
-
-
-@media screen and (max-width:750px) {
+    .led-wall {
+        width:100%;
+    }
+    .calculator {
+        width:100%;
+        height:150px;
+    }
+    .pastel {
+        width:100%;
+        background-image:url(../images/pastel\ puzzle.jpg);
+    }
+            
+    .runbuddy {
+         width:100%;
+        }
+    }
     li {
-        display:block;
+        display:inline;
         margin:10px;
     }
     ul {
         margin:20px;
     };
-}
+
+
 
 @media screen and (max-width:1000px) {
     li {
-        display:inline;
+        display:inline-flex;
         margin:10px;
+    }
+
+    .recent-work-box h3 {   
+    width:100%;
+    Font-size: 40px;
+    color: teal;
+    padding:10px;
+    background-color: black;
+    vertical-align:auto;
+    text-align: middle;
+    margin: 10px;
     }
 }
