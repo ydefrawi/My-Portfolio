@@ -47,13 +47,11 @@ nav {
 }
 
 ul {
-    flex-wrap:wrap;
     float:right;
 }
 
 
 li {
-    flex-wrap:wrap;
     display:inline;
     margin:30px;
 }
@@ -78,7 +76,7 @@ div {
     margin-left:0 ; 
 }
 
-.about-me-container {
+#about-me-container {
     display:flex;
     align-items: center;
     justify-content:flex-start;
@@ -88,7 +86,7 @@ div {
 .about-heading {
     height:400px;
     background-image: url(../images/linkedin.PNG);
-    background-size:390px;
+    background-size:500px;
     background-repeat: space;
     align-self:auto;
     padding:0px;
@@ -114,9 +112,10 @@ p {
   font-size: 25px;    
 }
 
-.surf-container{
+#surf-container{
     display:flex;
     background-color: rgb(1, 7, 12);
+    align-items: center;
 }
 
 .recent-work-box {
@@ -199,7 +198,7 @@ p {
     margin-bottom:20px;
 }
 
-.contact {
+#contact {
     display:flex;
     align-items:center;
     height:250px;
@@ -218,10 +217,39 @@ p {
 }
 
 .contact-items {
-    flex:0 0 20%;
+    flex:0 0 15%;
     display:inline-block;
     margin:10px;
     text-decoration: underline;
     text-decoration-thickness: 5px;
     color:white;
+    text-align: center;
+}
+
+@media screen and (max-width:650px) {
+
+    #about-me-container{
+        justify-content: center;
+    }
+    #about-me-container {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    li {
+        display:block;
+        margin:10px;
+    }
+    ul {
+        margin:20px;
+    };
+}
+
+@media screen and (max-width:1000px) {
+    li {
+        display:inline;
+        margin:10px;
+    }
 }
