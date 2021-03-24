@@ -5,6 +5,13 @@
     font-family: Verdana, sans-serif;
 }
 
+h4 a:link{
+    color:rgb(7, 38, 68);
+}
+h4 a:visited {
+    color:rgb(7, 38, 68);
+}
+
 h1 {
     font-size: 60px;
     padding:10px;
@@ -198,8 +205,16 @@ h3{
     border-width: 10px;
 }
 
+
+
 .bluebox { 
     background-color:rgb(140, 211, 204);
+    padding:10px;
+    margin-bottom:20px;
+}
+
+.bluebox :hover { 
+    background-color:rgb(196, 245, 240);
     padding:10px;
     margin-bottom:20px;
 }
@@ -280,13 +295,13 @@ h3{
 .runbuddy {
     width:100%;
     }
-li {
-    display:block;
+/* li {
+    display:inline;
      margin:10px;
     }
 ul {
-        margin:20px;
-    }
+    margin:20px;
+    } */
 }
 
 #contact {
