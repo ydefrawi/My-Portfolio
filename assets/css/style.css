@@ -209,12 +209,12 @@ h3{
     margin-bottom:20px;
 }
 
-/* Contact is the container for the footer contact section */
+
 #contact {
     display:flex;
     align-items:left;
-    justify-content:space-evenly;
-    height:50%;
+    justify-content: space-between;
+    height:250px;
     background-image: url(../images/HoustonBlue.jpg);
     background-position: center;
 }
@@ -223,38 +223,21 @@ h3{
    margin:30px;
    text-align: right;
    word-wrap: normal;
-   width:20%;
+   width:200px;
    padding:40px;
    display:inline-block;
    color:white;
 }
 
-#contact h2 {
-    text-align: left;
-}
-
-.footerNav {
-    display:flex;
-    padding:20px;
-}
-
 .contact-items {
     flex:0 0 15%;
     display:inline;
-    margin-left:20px;
-    margin-right:20px;
+    margin:10px;
     text-decoration: underline;
     text-decoration-thickness: 5px;
     color:white;
-    font-size: 20px;
     text-align: center;
 }
-
-.contact-me h2 {
-    text-align:left;
-    justify-content: center;
-    margin: 20px;
-    font-size:10px;
 
 /* @Media responsiveness changes */
 
@@ -374,14 +357,4 @@ ul {
     text-align: middle;
     margin: 10px;
     }
-
-    .contact-me h2 {
-        text-align: right;
-        word-wrap: normal;
-        width:
-        padding:20px;
-        display:block;
-        color:white;
-        font-size: 20px;
-     }
 }
