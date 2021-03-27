@@ -10,7 +10,7 @@ Few other images of responsiveness in the 'images' folder'!
 
 ## Usage
 
-Just a standard html page with an 'assets' folder, containing 'css' and 'images'. The stylesheet is in 'ccs' as always. 
+Just a standard html page with an 'assets' folder, containing 'css' and 'images'. 
 
 
 ## Issues
