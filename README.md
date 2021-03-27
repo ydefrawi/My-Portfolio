@@ -28,7 +28,6 @@ I'd like to change the images to be layed out with HTML instead of CSS, and I'd 
 Adding pseudo classes to change things on hover would also be a neat addition. I attempted to but I ended up creating more layout problems.. 
 
 ## Conclusion
-Pretty difficult since we only just picked up Flex, but I learned so much! I would have liked to have mad 3-4 more pages to drill it home before moving along but move on we must! 
+Pretty difficult since we only just picked up Flex, but I learned a ton!
 
 
--Yousef Defrawi
