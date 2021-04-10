@@ -15,8 +15,7 @@ h1 {
 
 h2 {
     font-size: 50px;
-    padding:0px;
-    Margin-left: 0px;
+
 }
 
 header {
@@ -43,7 +42,7 @@ header .headerbox {
 }
 
 nav {
-    display: inline-block;
+    display: block;
 
 }
 
@@ -241,7 +240,7 @@ h3{
 
 /* @Media responsiveness changes */
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
 .header {
     flex-wrap: wrap;
     flex-direction:column;
