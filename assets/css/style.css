@@ -116,7 +116,7 @@ p {
   font-size: 25px;    
 }
 
-#surf-container{
+#game-container{
     display:flex;
     flex:wrap;
     background-color:black;
@@ -146,11 +146,12 @@ h3{
     border-style: solid;
     border-color:teal;
 }
-.surf {
+.game-finder {
     height:300px;
     width: 100%;
-    background-image: url("../images/waves.jpg");
+    background-image: url("../images/ps4controller.jpg");
     background-position: center;
+    background-size: cover;
 }
 
 .smaller-projects {
@@ -159,20 +160,25 @@ h3{
     background-color: rgb(1, 7, 12);
 }
 
-.led-wall {
+.weather {
     display:flex;
     align-items: flex-end;
     width:50%;
     height:150px;
-    background-image: url(../images/ledwall.jpg);
+    background-image: url(https://images.unsplash.com/photo-1558486012-817176f84c6d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop);
+    background-size: 100%;
+    background-position: right 20% bottom 45%;
+    
 }
 
-.calculator {
+.password {
     display:flex;
     align-items: flex-end;
     width:50%;
     height:150px;
-    background-image:url(../images/calculator.jpg)
+    background-image:url(https://images.unsplash.com/photo-1582139329536-e7284fece509?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80);
+    background-position: bottom 0px left 50px;
+    background-size:cover;
 }
 
 .pastel {
@@ -211,18 +217,23 @@ h3{
 
 #contact {
     display:flex;
+    /* flex-wrap: wrap; */
     align-items:left;
-    justify-content: space-between;
+    justify-content: center;
     height:250px;
     background-image: url(../images/HoustonBlue.jpg);
     background-position: center;
 }
 
+.footerNav{
+
+}
+
 .contact-me{
    margin:30px;
-   text-align: right;
-   word-wrap: normal;
-   width:200px;
+   text-align: center;
+   word-wrap:normal;
+   width:fit-content;
    padding:40px;
    display:inline-block;
    color:white;
@@ -249,7 +260,7 @@ h3{
     .hero{
     height: 400px;
 }
- #surf-container{
+ #game-container{
     flex-direction: column;
     flex-wrap: wrap;
     }
@@ -270,11 +281,11 @@ h3{
      margin: 10px;
      }
 
-.led-wall {
+.weather {
     align-items: flex-end;
     width:100%;
     }
-.calculator {
+.password {
      align-items: flex-end;
      width:100%;
      height:150px;
@@ -313,10 +324,10 @@ ul {
     #about-me-container {
         flex-wrap: wrap;
     }
-    .led-wall {
+    .weather {
         width:100%;
     }
-    .calculator {
+    .password {
         width:100%;
         height:150px;
     }
