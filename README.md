@@ -4,7 +4,7 @@ This page is an interactive portfolio demonstrating the skills we will accumulat
 
 ## Screenshots
 
-![Full-page](assets\images\page-screenshots\UpdatedScreenshot.PNG)
+![Full-page](https://github.com/ydefrawi/My-Portfolio/blob/main/assets/images/page-screenshots/UpdatedScreenshot.PNG)
 
 
 
