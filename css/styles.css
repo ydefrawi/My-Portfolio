@@ -73,6 +73,25 @@ body {
   outline: 0 !important;
 }
 
+.fadeIn{
+animation: fadeInAnimation ease 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+.profile-pic {
+  border-radius: 12px;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: .5;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -9805,7 +9824,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #04a1af !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10016,7 +10035,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 2rem 0;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -10028,7 +10047,7 @@ p {
   font-weight: 400;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
