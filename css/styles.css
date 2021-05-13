@@ -69,8 +69,31 @@ body {
   background-color: #fff;
 }
 
+
+.parallax {
+  /* The image used */
+  background-image: url("../assets/img/Divider3.jpg");
+
+  /* Set a specific height */
+  min-height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment:local;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
+}
+
+#divider {
+  background-image: url("../assets/img/Divider3.jpg");
+  background-size: cover;
+  background-position:center 40%;
+  height: 200px;
+  width: 100%;
 }
 
 .fadeIn{
@@ -10034,6 +10057,11 @@ p {
   line-height: 1.75;
 }
 
+#about-divider {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .page-section {
   padding: 2rem 0;
 }
@@ -10481,15 +10509,24 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
+/* #contact-me {
+    color:#300b49;
+} */
+
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/contactdar.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #164c6b;
 }
+
+.section-subheading {
+  font-weight: bolder;
+}
+
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
 }

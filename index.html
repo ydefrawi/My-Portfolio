@@ -34,6 +34,9 @@
                             <a class = "nav-link" href="#portfolio">Work</a>
                         </li>
                         <li class="nav-item">
+                            <a class = "nav-link" href="https://github.com/ydefrawi">Github</a>
+                        </li>
+                        <li class="nav-item">
                             <a class = "nav-link" href="#contact">Contact Me</a>
                         </li>
                         <li class="nav-item">
@@ -44,7 +47,7 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead fadeIn">
+        <header class="masthead fadeIn hero">
             <div class="container" id='bg'>
                 <div class="masthead-subheading">My name is Yousef</div>
                 <div class="masthead-heading text-uppercase">LET'S MAKE SOMETHING</div>
@@ -91,7 +94,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">View more details about each project below!</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -180,12 +183,15 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- About-->
-        <section class="page-section" id="about">
-            <container class="divider">
-                <img src = "assets/img/Divider2.jpg">
-            </container>
+            </section>
+            <!-- About-->
+            <div>
+                <container class="container" id = "divider-wrapper">
+                    <div id = "divider" class="parallax"></div> 
+                                       <!-- <img id="about-divider" src="assets/img/Divider2.jpg" width="100%" height="400px";> -->
+                </container>
+            </div>
+            <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
                     <br>
@@ -285,8 +291,8 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Me</h2>
-                    <h3 class="section-subheading" style="color: aliceblue;">Ideas, Offers, Projects? Reach out! </h3>
+                    <h2 id = "contact-me" class="section-heading text-uppercase">Contact Me</h2>
+                    <h3 id = "contact-subheader" class="section-subheading shadow-lg" style="color:rgb(255, 255, 255)">Ideas, Offers, Projects? Reach out! </h3>
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
@@ -331,7 +337,7 @@
                         </script>
                     </div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/yousef-defrawi"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-right">
                         <!-- <a class="mr-3" href="#!">Privacy Policy</a>
@@ -352,7 +358,7 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">FreelancR</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">Node, Express, mySQL, Handlebars</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/FreelancR.jpg" alt="..." />
                                     <p>FreelancR is an application users can sign up as either Clients or Freelancers.</p>
                                     <ul>
@@ -368,7 +374,7 @@
                                         <li><a href="https://github.com/ydefrawi/FreelancR">Github Repo</a></li>
                                         <li>Date: May 2021</li>
                                         <li>Client: Myself</li>
-                                        <li>Category: Illustration</li>
+                                        <li>Category: Gig Economy</li>
                                     </ul>
                                     <button class="btn btn-info" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
@@ -392,7 +398,7 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Employee Tracker</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">Node, MySQL</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/employeeTracker-full.jpg" alt="..." />
                                     <p>This Employee Tracker is a terminal based CMS system for managing a company's employees, departments, and roles using node, inquirer, and MySQL.</p>
                                     <ol>
@@ -419,9 +425,9 @@
                                     <ul class="list-inline">
                                         <li><a href="https://github.com/ydefrawi/Employee-Tracker">Github Page</a></li>
                                         <li><a href="https://drive.google.com/file/d/1yDZ0xNv2huKtr-T1hSBRrhXhz_reoyic/view">Walkthrough Video</a></li>
-                                        <li>Date: January 2021</li>
-                                        <li>Client: Explore</li>
-                                        <li>Category: Graphic Design</li>
+                                        <li>Date: May 2021</li>
+                                        <li>Client: Myself</li>
+                                        <li>Category: CRM</li>
                                     </ul>
                                     <button class="btn btn-info" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
@@ -477,7 +483,7 @@ for that city
                                         <li><a href="https://github.com/ydefrawi/Weather-Dashboard">Github Repo</a></li>
                                         <li>Date: May 2021</li>
                                         <li>Client: Myself</li>
-                                        <li>Category: Travel </li>
+                                        <li>Category: API Calls </li>
                                     </ul>
                                     <button class="btn btn-info" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
@@ -572,7 +578,7 @@ for that city
                                         <li><a href="https://github.com/ydefrawi/bunnies">Github Repo</a></li>
                                         <li>Date: May 2021</li>
                                         <li>Client: Myself</li>
-                                        <li>Category: Fun</li>
+                                        <li>Category: Fun </li>
                                     </ul>
                                     <button class="btn btn-info" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
