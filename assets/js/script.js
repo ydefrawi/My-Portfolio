@@ -1,1 +1,0 @@
-$(".animated").addClass("delay-3s");
