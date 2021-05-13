@@ -5,34 +5,48 @@
     <meta charset="UTF-8" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <div class="headerbox">
-        <h1>Yousef Defrawi</h1>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me-container" >About Me</a>
+    <nav class="w3-animate-opacity navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <div class="container-fluid">
+            <div class="headerbox animated fadeIn">
+                <h1>Yousef Defrawi</h1>
+                </div>
+            <!-- <a class="navbar-brand" href="#">Yousef Defrawi</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class = "nav-link" href="#about-me-container" >About Me</a>
                 </li>
-                <li>
-                    <a href="#game-container">Work</a>
+                <li class="nav-item">
+                    <a class = "nav-link" href="#game-container">Work</a>
                 </li>
-                <li>
-                    <a href="#contact">Contact Me</a>
+                <li class="nav-item">
+                    <a class = "nav-link" href="#contact">Contact Me</a>
                 </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/yousef-defrawi" target="_blank">Resume</a>
+                <li class="nav-item">
+                    <a class = "nav-link" href="https://www.linkedin.com/in/yousef-defrawi" target="_blank">Resume</a>
                 </li>
-            </ul>
-        </nav>
-    </header>
+              <!-- <span class="navbar-text">
+                Navbar text with an inline element
+              </span> -->
+            </div>
+          </div>
+      </nav>
 
-    <div class="hero"></div>
+
+
+    
+    <div class="hero fade-in"></div>
 
 <!------- About Me Container - ------>
 <section id="about-me-container"> 
@@ -56,6 +70,8 @@
 
 <!------- About Me Row Container Emds  ----- -->
 
+
+
 <!-- Recent Work Divider -->
 
 <section id="game-container" >
@@ -64,8 +80,8 @@
     <h3>Recent<br> Work</h3>   
 </div>
 
-<div class="game-finder app-box"> 
-        <div class="bluebox">
+<div class="game-finder app-box wrapper"> 
+        <div class="bluebox slide ">
         <h4>
             <a href="https://ydefrawi.github.io/Top-Games-This-Year/" target="_blank"> Video Game Finder </a>
         </h4> 
@@ -74,10 +90,11 @@
 </div>
 </section>
 
+
 <section class="smaller-projects">
 
-<div class="weather app-box"> 
-    <div class="bluebox">
+<div class="weather app-box wrapper"> 
+    <div class="bluebox fade-in slide">
         <h4>
             <a href="https://ydefrawi.github.io/Weather-Dashboard/" target="_blank"> Weather Dashboard </a>
         </h4> 
@@ -85,8 +102,9 @@
     </div>
 </div>
 
-<div class="pastel app-box"> 
-    <div class="bluebox">
+
+<div class="pastel app-box wrapper"> 
+    <div class="bluebox fade-in slide">
     <h4>
         <a href="https://github.com/ydefrawi/Employee-Tracker"> Terminal-Based CRM </a>
     </h4>  
@@ -94,8 +112,8 @@
     </div>
 </div>
 
-<div class="password app-box"> 
-    <div class="bluebox">
+<div class="password app-box wrapper"> 
+    <div class="bluebox fade-in slide">
         <h4>
             <a href="https://ydefrawi.github.io/PasswordGenerator/" target="_blank"> Password Generator </a>
         </h4>  
@@ -104,8 +122,8 @@
 </div>
 
 
-<div class="runbuddy app-box"> 
-    <div class="bluebox">
+<div class="runbuddy app-box wrapper"> 
+    <div class="bluebox fade-in slide">
     <h4>
         <a href="https://freelancr-excellence.herokuapp.com/"> FreelancR Platform</a>
     </h4>  
@@ -125,6 +143,11 @@
     <a href="https://www.linkedin.com/in/yousef-defrawi" target="_blank" class="contact-items"> LinkedIn</a>
     </div>
 </footer>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
